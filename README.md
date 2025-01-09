@@ -29,4 +29,4 @@ The Hydra Heads Game simulates the classic mythological challenge:
 5. When all heads are eliminated, the game displays the total number of cuts made.
 6. Click Reset to restart the game with new settings.
 
-**Note**:I am yet to complete some of these features, but have the UI and basic functions up and running.
+**Note**: I am yet to complete some of these features, but have the UI and basic functions up and running.
