@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.canvas.Canvas?>
+
+<?import javafx.scene.layout.VBox?>
+<VBox fx:controller="CS3330.hydragame.HydraGameController"
+    xmlns:fx="http://javafx.com/fxml" alignment="center">
+    <Slider fx:id="headSizeSlider" min="2" max="6" value="4"/>
+    <Button fx:id="play" text="Play" onAction="#play"/>
+    <Button fx:id="reset" text="Reset" onAction="#reset"/>
+    <GridPane fx:id="board" GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.columnSpan="16" prefWidth="800" prefHeight="850" />
+</VBox>
